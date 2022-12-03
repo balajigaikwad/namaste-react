@@ -1,0 +1,23 @@
+Q: In general, why we use to place script tag at the bottom?
+A: So that we browser can load DOM without an issue and perform faster. However, these days the approach we follow is put script in head and use async and defer along with it. This enables loading of DOM without any issue. Almost 98% of the browser does support async and defer.
+Q: What is React?
+A: React is a JS library to build UI. We build these UI using small pieces of code known as “Component”
+Q: Library vs Framework
+A: Library is a collection of predefined classes and functions that allows you to add specific features using library code.  In libraries you have better control as we can use our code into this prewritten code.
+Whereas framework allows you to build applications using available platform. A framework does contain libraries, compilers toolsets. Here framework has more control over your code. 
+Which is better, a library or a framework?
+You can probably already see if you have worked with both that normally, code libraries are used to solve a specific problem or to add a specific feature to your program. Frameworks, on the other hand, provide a much more generic and reusable approach. While neither pattern is inherently better, you need to know which pattern is appropriate for the problem at hand.
+Resource: https://www.interviewbit.com/blog/framework-vs-library/
+Q: SPA
+A: In single page application we load only single document and there after we can update that page without refreshing the page, using JS API. 
+This gives better performance and good UI experience example Netflix. 
+However, there are few downside as well like SEO, state management and routing.
+Q: Emmet
+A: An free add on text editor tool, which has shortcut code snippets for long pieces of code.
+Q: CDN
+A: Content Delivery Network. It is a network of servers to distribute content all over the world.  A user might have a replica server of origin content stored server. This helps in quicker access to the resources.
+Q: Use of cross origin for adding external scripts
+A: Cross origin attribute allows CORS (Cross origin resource sharing). CORS is HTTP header based mechanism which allows accesssing resources to cross orgin request. An orign is consist of protocol(http), host(domain.com), and port(:80).
+
+
+

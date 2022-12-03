@@ -17,7 +17,7 @@ A: An free add on text editor tool, which has shortcut code snippets for long pi
 Q: CDN
 A: Content Delivery Network. It is a network of servers to distribute content all over the world.  A user might have a replica server of origin content stored server. This helps in quicker access to the resources.
 Q: Use of cross origin for adding external scripts
-A: Cross origin attribute allows CORS (Cross origin resource sharing).
+A: Cross origin attribute allows CORS (Cross origin resource sharing). CORS is HTTP header based mechanism which allows accesssing resources to cross orgin request. An orign is consist of protocol(http), host(domain.com), and port(:80).
 
 
 

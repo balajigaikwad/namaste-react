@@ -5,3 +5,6 @@ dist
 readme
 
 .vscode
+.env
+
+npm-debug.log*

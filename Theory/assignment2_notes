@@ -6,7 +6,8 @@ Q: What is Parcel? Why we use it?
 A: It is an open source bundler built on multi-core architecture. It supports many languages and file types. It supports dev server, hot reloading, tree shaking, caching, minification, image processing and lot more. In turn makes our app faster.
 
 Q: What is .parcel-cache?
-A: The .cache folder (or .parcel-cache in parcel v2) stores information about your project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch. It's a key reason why parcel can be so fast in development mode. 
+A: The .cache folder (or .parcel-cache in parcel v2) stores information about your project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch.
+ It's a key reason why parcel can be so fast in development mode. 
 
 Q: What is npx?
 A: Npx is a tool for executing packages. NPX is a npm package runner whose job it is to execute a package from the registry without ever installing it.

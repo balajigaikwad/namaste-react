@@ -1,0 +1,51 @@
+Q: What is NPM?
+A: The name npm (Node Package Manager) stems from when npm first was created as a package manager for Node.js. It is a package manager for JS maintained by npm inc.
+It takes care of dependency between libraries, packages. It creates configurations in package.json
+
+Q: What is Parcel? Why we use it?
+A: It is an open source bundler built on multi-core architecture. It supports many languages and file types. It supports dev server, hot reloading, tree shaking, caching, minification, image processing and lot more. In turn makes our app faster.
+
+Q: What is .parcel-cache?
+A: The .cache folder (or .parcel-cache in parcel v2) stores information about your project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything from scratch.
+ It's a key reason why parcel can be so fast in development mode. 
+
+Q: What is npx?
+A: Npx is a tool for executing packages. NPX is a npm package runner whose job it is to execute a package from the registry without ever installing it.
+
+Q: What is difference between dependencies and dev dependencies?
+A: The difference between these two, is that devDependencies are modules which are only required during development, while dependencies are modules which are also required at runtime.
+To save a dependency as a devDependency on installation we need to do an npm install --save-dev, instead of just an npm install --save.
+
+
+
+
+Q: What is Tree Shaking
+A: Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code. It relies on the import and export statements to detect if code modules are exported and imported for use between JavaScript files
+
+Q: What is HMR?
+A: Hot Module Replacement (HMR) exchanges, adds, or removes modules while an application is running, without a full reload. This can significantly speed up development in a few ways: Retain application state which is lost during a full reload. Save valuable development time by only updating what's changed.
+
+Q: 5 superpowers of parcel
+A: catch up on this later
+
+Q: .gitignore
+A: we can ignore files and folders which we don’t want to be committed and pushed into git.
+
+Q: Package.json and package-lock.json
+A: In package-lock we have exact version where as in package we have latest versions with tilt sign (^). And we should not modify package-lock, as it keeps exact dependency versions and it is generated file.
+
+Q: What is node_modules
+A: The node_modules folder is used to save all downloaded packages from npm in your computer for the JavaScript project that you have. Developers are always recommended to do a fresh install with npm install each time they downloaded a JavaScript project into their computer. 
+We should add this in git ignore as the files are in huge amount. Which will slow the process if not added in git ignore.
+
+Q: What is dist folder?
+A: The /dist folder contains the minimized version of the source code. The code present in the /dist folder is actually the code which is used on production web applications. Along with the minified code, the /dist folder also comprises of all the compiled modules that may or may not be used with other systems
+
+Q: What is Browserslist? 
+Browserslist is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file. It's used by frameworks/libraries such as React, Angular and Vue, but it's not limited to them.
+
+Q: what is noscript tag
+A: The <noscript> tag defines an alternate content to be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script. The <noscript> element can be used in both <head> and <body>
+
+Q: Manifest.json
+A: Web app manifest files provide the capability to change how an installed application will look like on the user's desktop or mobile device. By modifying properties in the JSON file, you can modify a number of details in your application, including its: Name. Description. App icon

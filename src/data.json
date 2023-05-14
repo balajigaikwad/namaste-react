@@ -1,0 +1,20 @@
+[
+    {
+      "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/3a8838c410b8192d4c40d824e7e9d05a",
+      "name": "Sweetnest",
+      "cusine": "Bakery",
+      "stars": "5"
+    },
+    {
+      "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/3a8838c410b8192d4c40d824e7e9d05a",
+      "name": "Icecream",
+      "cusine": "Bakery",
+      "stars": "5"
+    },
+    {
+      "img": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/3a8838c410b8192d4c40d824e7e9d05a",
+      "name": "Sweetnest",
+      "cusine": "Bakery",
+      "stars": "5"
+    }
+]

@@ -22,22 +22,6 @@
       crossorigin
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
-    <script>
-      const rootElement = document.getElementById("root");
-      // this will get overridden by ReactDOM.render() and ReactDOM.createRoot().render()
-      const heading3 = React.createElement(
-        "h3",
-        null,
-        "This is created using React!",
-      );
-      ReactDOM.render(heading3, rootElement);
-      const root = ReactDOM.createRoot(rootElement);
-      const heading4 = React.createElement(
-        "h4",
-        null,
-        "This is created using React 18!",
-      );
-      root.render(heading4);
-    </script>
+    <script src="App.js"></script>
   </body>
 </html>

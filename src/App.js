@@ -1,6 +1,14 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { AppLayout, HeadingComponent } from "./HeadComponent";
+const rootElement = document.getElementById("root");
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout></AppLayout>);
+// 1. Create the root (do this only ONCE)
+const root = ReactDOM.createRoot(rootElement);
+
+// 2. Create your content
+const heading4 = React.createElement(
+  "h4",
+  null,
+  "This is the correct React 18 way!",
+);
+
+// 3. Render it
+root.render(heading4);

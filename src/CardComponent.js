@@ -1,4 +1,4 @@
-const CardComponent = ( {restaurant} ) => {
+const CardComponent = ({ restaurant }) => {
   const { img, name, cuisine, stars } = restaurant;
   return (
     <div>
@@ -9,5 +9,4 @@ const CardComponent = ( {restaurant} ) => {
     </div>
   );
 };
-
 export default CardComponent;
